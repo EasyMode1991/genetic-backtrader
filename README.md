@@ -9,8 +9,9 @@
     
     For an example use see run_example.py,
     to run the example, clone the repository, make sure you have docker installed then run the commands 
-    <code>docker build -t stratevolve .</code>
-    <code>docker run -v `pwd`:t/app stratevolve</code>
+    
+    docker build -t stratevolve .
+    docker run -v `pwd`:t/app stratevolve
    
     and you should be able to see the result in a results.json
        
